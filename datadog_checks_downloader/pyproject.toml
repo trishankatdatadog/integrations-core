@@ -24,7 +24,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Intended Audience :: System Administrators",
     "License :: OSI Approved :: BSD License",
-    "Programming Language :: Python :: 2.7",
     "Programming Language :: Python :: 3.8",
     "Topic :: System :: Monitoring",
 ]
@@ -35,11 +34,9 @@ dynamic = [
 [project.optional-dependencies]
 deps = [
     "in-toto==1.0.1",
-    "packaging==20.9; python_version < '3.0'",
-    "packaging==21.3; python_version > '3.0'",
+    "packaging==21.3",
     "securesystemslib[crypto,pynacl]==0.25.0",
-    "tuf==0.17.0; python_version < '3.0'",
-    "tuf==2.0.0; python_version > '3.0'",
+    "tuf==2.0.0",
 ]
 
 [project.urls]
